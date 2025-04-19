@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linking.com - Watch Terabox Videos</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="description" content="Watch terabox videos without ads and login. Linking.com is fully compatible with both desktop and mobile devices.">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <h1>Linking.com</h1>
+            <p>Terabox Video Player beta 4.1.0</p>
+        </div>
+    </header>
+    
+    <main>
+        <div class="player-container">
+            <div class="input-area">
+                <input type="text" id="terabox-link" placeholder="Enter Terabox link here">
+                <button id="process-link">Watch Video</button>
+            </div>
+            
+            <div class="player-result" id="player-result">
+                <!-- Player will be inserted here -->
+            </div>
+            
+            <div class="copy-link-area" id="copy-link-area" style="display: none;">
+                <button id="copy-link-btn">Copy Playable URL</button>
+                <p id="copy-success" style="display: none;">Playable URL copied to clipboard!</p>
+            </div>
+            
+            <div class="features-list">
+                <ul>
+                    <li>✓ Support All terabox Domains</li>
+                    <li>✓ Support All formats</li>
+                    <li>✓ Change Video Quality</li>
+                    <li>✗ Folder Link Not Supported</li>
+                </ul>
+                <p class="warning">If the video is not playing within 20 sec and showing black screen means the video is deleted/invalid/ or in a folder</p>
+            </div>
+        </div>
+        
+        <div class="faq-section">
+            <h2>Frequently asked questions</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What is Terabox, and why should I use it?</h3>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Terabox is a widely-used cloud storage platform that offers 1TB of free storage. It lets users store, share, and even earn money by sharing files. Our tool makes downloading files from Terabox quicker and more convenient.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Is my data safe when using this tool?</h3>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, your data is secure. The tool operates on the client side, meaning we dont collect or store any of your information. Your Terabox credentials and files remain private and protected.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Is it legal to use this tool?</h3>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, its completely legal! Our Terabox player is designed to help you access files you already have permission to view on Terabox. It complies with all copyright laws and Teraboxs terms of service.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Linking.com. All rights reserved.</p>
+    </footer>
+    
+    <script src="js/main.js"></script>
+    <script src="js/player.js"></script>
+</body>
+</html>
